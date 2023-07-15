@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5f89bd;
+}
+
+header {
+    width: 100%;
+    background-color: #ecedef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #5f89bd;
+    background-color: #ecedef;
+    margin: 2px;
+    padding: 2px;
+}
+
+a:hover {
+    background-color: white;
+    border-radius: 2px;
+}
+
+.name p {
+    padding: 2px;
+}
+
+.main {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.name {
+    color: #5f89bd;
+    margin-right: 10px;
+}
